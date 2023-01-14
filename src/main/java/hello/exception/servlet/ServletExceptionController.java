@@ -9,7 +9,7 @@ import java.io.IOException;
 
 @Slf4j
 @Controller
-public class ServletExceptionController{
+public class ServletExceptionController {
 
     @GetMapping("/error-ex")
     public void errorEx() {
